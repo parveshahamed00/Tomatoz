@@ -87,7 +87,7 @@ letter-spacing: 2px;
     margin-top:50px ;
 }
 .carousel-item{
-    padding: 10% 25%;
+    padding: 5% 25%;
  
 }
 .carousel-item h4{
@@ -95,6 +95,8 @@ letter-spacing: 2px;
     letter-spacing: 2px;
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
+    text-align: start;
+    font-size: 25px;
 }
 /* section four */
 #four{
@@ -106,6 +108,10 @@ letter-spacing: 2px;
     font-size: 20px;
     word-spacing: 5px;
 }
+.four-container{
+    padding: 0 10%;
+}
+
 /* footer */
 #footer{
     padding: 2%;
@@ -117,4 +123,49 @@ letter-spacing: 2px;
 .bi{
     color: seashell;
     margin: 0 5px;
+}
+@media (max-width:700px) {
+    .img-thumbnail{
+        width: 100%;
+    }
+    .oneheading{
+        color:white;
+        letter-spacing: 1px;
+        line-height: 1;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        text-align:start;
+        }
+        .onesubheading{
+            padding:0;
+            color: whitesmoke;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            letter-spacing: 2px;
+            font-size: 10px;
+            word-spacing: 5px;
+            text-align: start;
+        }
+        .four-container{
+            padding: 0 25%;
+        }
+        .carousel-item{
+            padding: 5% 10%;
+         
+        }
+        .carousel-item h4{
+            line-height: 1.5;
+            letter-spacing: 1px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+            text-align: start;
+            font-size: 20px;
+            word-spacing: 5px;
+        }
+        .boy{
+            width: 50px;
+            border-radius: 50%;
+            height: 50px;
+            margin-top:20px ;
+        }
 }
