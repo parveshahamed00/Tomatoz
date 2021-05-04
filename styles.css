@@ -1,0 +1,120 @@
+body{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-color:#1fab89;
+    
+}
+/* section one */
+#one{
+    padding: 3% 10%;  
+}
+
+.navbar-brand{
+    font-size: 40px;
+    padding-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style:italic ;
+    font-variant: small-caps;
+    font-weight: bolder;
+    
+}
+.brand{
+    color: #e23e57;
+
+}
+.brandd{
+    color:yellow;
+}
+.nav-item{
+    font-size: 20px;
+    padding: 0 30px;
+}
+.img-thumbnail{
+    width: 70%;
+}
+.oneheading{
+color:white;
+letter-spacing: 2px;
+line-height: 1.4;
+font-size: 45px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 700;
+}
+.onesubheading{
+    padding: 15% 5%;
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+}
+.onespan{
+    color:yellow;
+    font-style: oblique;
+    font-weight: 800;
+}
+.onespann{
+    color: #e23e57;
+    font-style:oblique;
+    font-weight: 800;
+}
+/* section two */
+#two{
+background-color:whitesmoke;
+color:darkgray;
+padding: 10%;
+}
+.container-fluid h2{
+    padding-bottom: 4%;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    color: dimgrey;
+}
+.container-fluid h1{
+font-size: 30px;
+font-family: Arial, Helvetica, sans-serif;
+letter-spacing: 2px;
+}
+/* section three */
+#three{
+    background-color: #62d2a2;
+    color: white;
+}
+.boy{
+    width: 100px;
+    border-radius: 50%;
+    height: 100px;
+    margin-top:50px ;
+}
+.carousel-item{
+    padding: 10% 25%;
+ 
+}
+.carousel-item h4{
+    line-height: 2;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+/* section four */
+#four{
+    padding:4% 10%;
+    background-color: whitesmoke;
+}
+.card-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    word-spacing: 5px;
+}
+/* footer */
+#footer{
+    padding: 2%;
+}
+#footer h3{
+    padding-bottom: 2%;
+    color: white;
+}
+.bi{
+    color: seashell;
+    margin: 0 5px;
+}
