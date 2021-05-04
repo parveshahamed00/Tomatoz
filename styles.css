@@ -100,7 +100,7 @@ letter-spacing: 2px;
 }
 /* section four */
 #four{
-    padding:4% 10%;
+   padding: 0 5%;
     background-color: whitesmoke;
 }
 .card-text{
@@ -109,7 +109,7 @@ letter-spacing: 2px;
     word-spacing: 5px;
 }
 .four-container{
-    padding: 0 10%;
+    padding: 10% 20%;
 }
 
 /* footer */
@@ -146,13 +146,7 @@ letter-spacing: 2px;
             word-spacing: 5px;
             text-align: start;
         }
-        .four-container{
-            padding: 0 25%;
-        }
-        .carousel-item{
-            padding: 5% 10%;
-         
-        }
+        
         .carousel-item h4{
             line-height: 1.5;
             letter-spacing: 1px;
